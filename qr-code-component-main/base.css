@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Magra&family=Outfit:wght@400;700&display=swap');
+
+
+.body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 340px;
+    margin: 70px auto 0 auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrImage{
+    margin: 20px 0 20px 0;
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.containerText{
+    text-align: center;
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.containerText p{
+    width: 280px;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    margin: 20px 0 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
